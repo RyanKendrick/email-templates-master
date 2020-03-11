@@ -5,7 +5,7 @@
  	<meta name="format-detection" content="telephone=no"/>
 
 	<style>
-
+/* Reset styles */
 body { margin: 0; padding: 0; min-width: 100%; width: 100% !important; height: 100% !important;}
 body, table, td, div, p, a { -webkit-font-smoothing: antialiased; text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; line-height: 100%; }
 table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important; border-spacing: 0; }
@@ -14,12 +14,12 @@ img { border: 0; line-height: 100%; outline: none; text-decoration: none; -ms-in
 .ReadMsgBody { width: 100%; } .ExternalClass { width: 100%; }
 .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
 
-
+/* Extra floater space for advanced mail clients only */
 @media all and (max-width: 600px) {
 	.floater { width: 320px; }
 }
 
-
+/* Set color for auto links (addresses, dates, etc.) */
 a, a:hover {
 	color: #127DB3;
 }
@@ -29,11 +29,13 @@ a, a:hover {
 
  	</style>
 
-
+	<!-- MESSAGE SUBJECT -->
 	<title>Media Delivery</title>
 
 </head>
 
+<!-- BODY -->
+<!-- Set message background color (twice) and text color (twice) -->
 <body topmargin="0" rightmargin="0" bottommargin="0" leftmargin="0" marginwidth="0" marginheight="0" width="100%" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; width: 100%; height: 100%; -webkit-font-smoothing: antialiased; text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; line-height: 100%;
 	background-color: #FFFFFF;
 	color: #000000;"
@@ -41,22 +43,20 @@ a, a:hover {
 	text="#000000">
 
 <!-- SECTION / BACKGROUND -->
-
+<!-- Set section background color -->
 <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; width: 100%;" class="background"><tr><td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; background-color: #0b5073; border-radius: 15px;">
 
 <!-- WRAPPER -->
-
+<!-- Set wrapper width (twice) -->
 <table border="0" cellpadding="0" cellspacing="0" align="center"
 	width="600" style="border-collapse: collapse; border-spacing: 0; padding: 0; width: inherit;
 	max-width: 600px;" class="wrapper">
 
 	<tr>
-		<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0;
+		<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%;
 			padding-top: 20px;">
 
-			<!-- LOGO -->
-
-			<a target="_blank" style="text-decoration: none; width: 200px;"
+			<a target="_blank" style="text-decoration: none;"
 				href="https://vrlportal.com"><img border="0" vspace="0" hspace="0"
 				src="https://raw.githubusercontent.com/RyanKendrick/email-templates-master/master/images/VRL.png"
 				width="200" height="auto"
@@ -78,12 +78,14 @@ a, a:hover {
 		</td>
 	</tr>
 
+	<!-- SUBHEADER -->
+
 	<tr>
 		<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-bottom: 30px; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 22px; font-weight: 300; line-height: 150%;
 			padding-top: 5px;
 			color: #FFFFFF;
 			font-family: Calibri, sans-serif;" class="subheader">
-				The remainder of your package is in progress. </br>
+				The remainder of your package is in progress.</br>
 		</td>
 	</tr>
 
@@ -98,6 +100,9 @@ a, a:hover {
 
 <!-- WRAPPER -->
 
+<table border="0" cellpadding="0" cellspacing="0" align="center"
+	width="600" style="border-collapse: collapse; border-spacing: 0; padding: 0; width: inherit;
+	max-width: 600px;">
 
 	<tr>
 		<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%;
@@ -115,27 +120,28 @@ a, a:hover {
 
 	<tr>
 		<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%;
-			padding-bottom: 35px;" class="button">
+			padding-top: 0;
+			padding-bottom: 30px;" class="button">
 				<table border="0" cellpadding="0" cellspacing="0" align="center" style="max-width: 1000px; min-width: 120px; border-collapse: collapse; border-spacing: 0; padding: 0;"><tr><td align="center" valign="middle" style="padding: 12px 24px; margin: 0; text-decoration: underline; border-collapse: collapse; border-spacing: 0; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; display: flex; flex-direction: row"
 					bgcolor="#0B5073"><a target="_blank" style="text-decoration: underline;
 					color: #FFFFFF; font-family: Calibri, sans-serif; font-size: 17px; font-weight: 400; line-height: 120%; display: flex; align-items: center"
 					href="https://vrlportal.com">
 						DOWNLOAD All PHOTOS <img src="https://raw.githubusercontent.com/RyanKendrick/email-templates-master/master/images/download-icon.png" style="height: 20px; width: auto; padding-left: 8px" alt="Click here to download your photos.">
 					</a>
-			</td></tr></table>
+			</td></tr></table></a>
 		</td>
 	</tr>
 
 <!-- End of WRAPPER -->
 </table>
 
-<!-- SECTION / BACKGROUND -->
 
-</td></tr>
-<tr><td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; background-color: #F0F0F0">
+<!-- SECTION / BACKGROUND -->
+<!-- Set section background color -->
+</td></tr><tr><td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; background-color: #F0F0F0">
 
 <!-- WRAPPER -->
-
+<!-- Set wrapper width (twice) -->
 <table border="0" cellpadding="0" cellspacing="0" align="center"
 	width="600" style="border-collapse: collapse; border-spacing: 0; padding: 0; width: inherit;
 	max-width: 600px;" class="wrapper">
@@ -181,15 +187,14 @@ a, a:hover {
 	</tr>
 
 	<!-- FOOTER -->
-
 	<tr>
 		<td align="center" valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 6.25%; padding-right: 6.25%; width: 87.5%; font-size: 13px; font-weight: 400; line-height: 150%;
 			padding-top: 20px;
 			padding-bottom: 20px;
 			color: #999999;
-			font-family: sans-serif;" class="footer">
+			font-family: Calibri, sans-serif;" class="footer">
 
-				 © <a href="https://www.vrlisting.com/">VR Listing.</a> 2020
+			  © <a href="https://www.vrlisting.com/">VR Listing.</a> 2020
 
 				<img width="1" height="1" border="0" vspace="0" hspace="0" style="margin: 0; padding: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block;"
 				src="https://raw.githubusercontent.com/konsav/email-templates/master/images/tracker.png" />
@@ -201,10 +206,7 @@ a, a:hover {
 </table>
 
 <!-- End of SECTION / BACKGROUND -->
-
-</td>
-</tr>
-</table>
+</td></tr></table>
 
 </body>
 </html>
